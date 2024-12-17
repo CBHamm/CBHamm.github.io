@@ -1,0 +1,521 @@
+/* General Styles */ 
+
+body { 
+
+    font-family: Arial, sans-serif; 
+
+    margin: 0; 
+
+    padding: 0; 
+
+    line-height: 1.6; 
+
+    background-color: #f4f4f4; 
+
+} 
+
+  
+
+/* Container */ 
+
+.container { 
+
+    width: 90%; 
+
+    max-width: 1200px; 
+
+    margin: 0 auto; 
+
+    padding: 20px 0; 
+
+} 
+
+  
+
+/* Header */ 
+
+.header { 
+
+    display: flex; 
+
+    align-items: center; 
+
+    justify-content: space-between; 
+
+    padding: 20px; 
+
+    background-color: #98e0d5; 
+
+    color: #fff; 
+
+} 
+
+  
+
+.logo { 
+
+    height: 60px; 
+
+} 
+
+  
+
+.tagline { 
+
+    font-size: 1.5rem; 
+
+    font-weight: bold; 
+
+} 
+
+  
+
+.nav ul { 
+
+    list-style: none; 
+
+    display: flex; 
+
+    gap: 20px; 
+
+} 
+
+  
+
+.nav ul li a { 
+
+    color: #fff; 
+
+    text-decoration: none; 
+
+} 
+
+  
+
+.nav ul li a:hover { 
+
+    text-decoration: underline; 
+
+} 
+
+  
+
+/* Hero Section */ 
+
+.hero { 
+
+    position: relative; 
+
+    text-align: center; 
+
+    color: white; 
+
+} 
+
+  
+
+.hero-image { 
+
+    width: 100%; 
+
+    height: auto; 
+
+} 
+
+  
+
+.hero-text { 
+
+    position: absolute; 
+
+    top: 50%; 
+
+    left: 50%; 
+
+    transform: translate(-50%, -50%); 
+
+    text-align: center; 
+
+} 
+
+  
+
+.cta-button { 
+
+    display: inline-block; 
+
+    padding: 10px 20px; 
+
+    background-color: #6c5b37; 
+
+    color: #fff; 
+
+    text-decoration: none; 
+
+    border-radius: 5px; 
+
+    margin-top: 10px; 
+
+} 
+
+  
+
+.cta-button:hover { 
+
+    background-color: #6c5b37; 
+
+} 
+
+  
+
+/* Services Section */ 
+
+.services { 
+
+    padding: 40px; 
+
+    text-align: center; 
+
+    background-color: #f4f4f4; 
+
+} 
+
+  
+
+.service-item { 
+
+    display: inline-block; 
+
+    margin: 20px; 
+
+    max-width: 300px; 
+
+} 
+
+  
+
+.service-item img { 
+
+    width: 80px; 
+
+    height: 80px; 
+
+} 
+
+  
+
+.learn-more { 
+
+    display: block; 
+
+    margin-top: 10px; 
+
+    color: #98e0d5; 
+
+    text-decoration: none; 
+
+} 
+
+  
+
+.learn-more:hover { 
+
+    text-decoration: underline; 
+
+} 
+
+  
+
+.store-header { 
+
+    text-align: center; 
+
+} 
+
+  
+
+/* General Styling for Service Sections */ 
+
+.service-section { 
+
+    padding: 40px; 
+
+    text-align: center; 
+
+    background-color: #f4f4f4; 
+
+} 
+
+  
+
+/* Service Card Grid */ 
+
+.service-section .service-card { 
+
+    display: inline-block; 
+
+    margin: 20px; 
+
+    padding: 20px; 
+
+    width: 300px; 
+
+    background-color: #fff; 
+
+    border-radius: 10px; 
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+
+    text-align: left; 
+
+} 
+
+  
+
+/* Service Card Headings */ 
+
+.service-card h3 { 
+
+    font-size: 1.2rem; 
+
+    margin-bottom: 10px; 
+
+} 
+
+  
+
+/* Call to Action Button */ 
+
+.service-card .cta-button { 
+
+    display: inline-block; 
+
+    padding: 10px 20px; 
+
+    background-color: #98e0d5; 
+
+    color: #fff; 
+
+    text-decoration: none; 
+
+    border-radius: 5px; 
+
+    margin-top: 10px; 
+
+    text-align: center; 
+
+} 
+
+  
+
+.service-card .cta-button:hover { 
+
+    background-color: #6c5b37; 
+
+} 
+
+  
+
+  
+
+/* Product Categories */ 
+
+.categories { 
+
+    text-align: center; 
+
+} 
+
+  
+
+.category-list { 
+
+    display: flex; 
+
+    justify-content: center; 
+
+    list-style: none; 
+
+    gap: 15px; 
+
+    padding: 0; 
+
+} 
+
+  
+
+/* Product Grid */ 
+
+.products { 
+
+    padding: 20px 0; 
+
+    text-align: center; 
+
+} 
+
+  
+
+.product-grid { 
+
+    display: flex; 
+
+    flex-wrap: wrap; 
+
+    gap: 20px; 
+
+    justify-content: center; 
+
+} 
+
+  
+
+.product-card { 
+
+    background: #fff; 
+
+    border: 1px solid #ddd; 
+
+    border-radius: 5px; 
+
+    padding: 15px; 
+
+    width: 250px; 
+
+    text-align: center; 
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+
+} 
+
+  
+
+.product-card img { 
+
+    max-width: 100%; 
+
+    height: auto; 
+
+    border-radius: 5px; 
+
+    margin-bottom: 10px; 
+
+} 
+
+  
+
+.product-card h3 { 
+
+    font-size: 1.1rem; 
+
+    margin: 10px 0; 
+
+} 
+
+  
+
+.product-card p { 
+
+    margin: 5px 0; 
+
+    font-size: 0.9rem; 
+
+    color: #333; 
+
+} 
+
+  
+
+.add-to-cart { 
+
+    background-color: #6c5b37; 
+
+    color: #fff; 
+
+    border: none; 
+
+    padding: 10px 15px; 
+
+    border-radius: 5px; 
+
+    cursor: pointer; 
+
+} 
+
+  
+
+.add-to-cart:hover { 
+
+    background-color: #5a4930; 
+
+} 
+
+  
+
+/* Footer */ 
+
+.footer { 
+
+    background-color: #6c5b37; 
+
+    color: white; 
+
+    text-align: center; 
+
+    padding: 20px; 
+
+} 
+
+  
+
+.footer-content { 
+
+    max-width: 800px; 
+
+    margin: auto; 
+
+} 
+
+  
+
+.social-links, 
+
+.quick-links { 
+
+    list-style: none; 
+
+    padding: 0; 
+
+    display: flex; 
+
+    justify-content: center; 
+
+    gap: 20px; 
+
+} 
+
+  
+
+.social-links li a, 
+
+.quick-links li a { 
+
+    color: white; 
+
+    text-decoration: none; 
+
+} 
+
+  
+
+.social-links li a:hover, 
+
+.quick-links li a:hover { 
+
+    text-decoration: underline; 
+
+} 
+
+ 
+
+ 

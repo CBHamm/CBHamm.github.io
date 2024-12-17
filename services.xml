@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<services>
+    <service>
+        <category>Backpacking</category>
+        <title>Weekend Backpacking Trip</title>
+        <duration>3 days</duration>
+        <cost>$750.00</cost>
+        <details>Backpacking trip from Mapleton Depot to Martins Gap via the Standing Stone Trail. Includes all meals.</details>
+    </service>
+    <service>
+        <category>Climbing</category>
+        <title>Bouldering</title>
+        <duration>1 day</duration>
+        <cost>$200.00</cost>
+        <details>Pulpit Rocks, Huntingdon. A fun day of bouldering!</details>
+    </service>
+    <!-- Add other services here -->
+</services>
